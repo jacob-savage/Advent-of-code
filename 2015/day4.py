@@ -18,7 +18,7 @@ import hashlib
 def md5_hash(string):
     # Encode the string as bytes before hashing
     string_bytes = string.encode('utf-8')
-    ``
+    
     # Create an MD5 hash object and hash the string bytes`j`
     hash_object = hashlib.md5(string_bytes)
     hash_bytes = hash_object.digest()
@@ -39,4 +39,4 @@ while ans is None:
         ans = count
     count += 1
 
-print(ans)````
+print(ans)
